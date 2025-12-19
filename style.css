@@ -27,6 +27,7 @@ body {
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 
 }
 header {
@@ -68,7 +69,7 @@ nav ul li:hover{
 }
 
 .k {
-  background: #f0a8ce;
+
   width: fit-content;
   padding: 20px;
   border-radius: 20px;
@@ -77,13 +78,4 @@ nav ul li:hover{
   align-self: center;
 }
 
-@media (max-width: 768px) {
-    body {
-        text-align: center; /* Центрирует inline-элементы */
-    }
 
-    .h, .k {
-        display: inline-block; /* Становится inline-блоком */
-        width: 90%;
-    }
-}

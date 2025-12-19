@@ -77,5 +77,11 @@ nav ul li:hover{
   margin: 20px;
   align-self: center;
 }
+.l {
+  display: flex;
+  gap: 20px;
+  align-self: center;
+}
+
 
 
